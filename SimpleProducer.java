@@ -73,7 +73,7 @@ public class SimpleProducer {
 
     props.put("ssl.truststore.location", "/Users/mlakshm/Downloads/es-cert.p12");
 
-    props.put("ssl.truststore.password", "JCi4nt0DkN9B");
+    props.put("ssl.truststore.password", "xxxxxx");
 
     props.put("ssl.protocol", "TLSv1.2");
 
@@ -81,7 +81,7 @@ public class SimpleProducer {
 
     props.put(
         "sasl.jaas.config",
-        "org.apache.kafka.common.security.scram.ScramLoginModule required username='cred2' password='yRenuVTcidCV';");
+        "org.apache.kafka.common.security.scram.ScramLoginModule required username='cred2' password='xxxx';");
 
     // Set acknowledgements for producer requests.
     props.put("acks", "all");
